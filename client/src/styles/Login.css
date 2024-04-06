@@ -1,0 +1,269 @@
+
+.login-main{
+    display: flex;
+  }
+  
+  .login-left{
+    flex-grow: 0.5;
+    height: 100vh;
+    background-color: white;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .login-left img{
+    width: 600px;
+  }
+  
+  .login-right{
+  
+    height: 100vh;
+  
+    flex-grow: 1;
+    
+  
+  }
+  
+  .login-right-container{
+    
+    width: 75%;
+    margin: 0 ;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 2px solid #e6e6e6;
+    margin-top: 100px;
+    padding: 30px;
+    border-radius:10px;
+  }
+  
+  .login-right form{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .login-logo{
+    align-self: center;
+    padding-top: 50px;
+  }
+  
+  .login-center{
+    margin: auto 0;
+  }
+  
+  .login-logo img{
+    width: 50px;
+  }
+  
+  .login-center h2{
+    font-size: 35px;
+  }
+  
+  .login-center{
+    text-align: center;
+  }
+  
+  .login-center p{
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 40px;
+  }
+  
+  form input[type='email'],
+  form input[type='password'],
+  form input[type='text']
+   {
+    width: 100%;
+    padding: 16px;
+    margin-bottom: 16px;
+    border: 0px;
+    border-bottom: 1px solid #e6e6e6;
+    outline: none;
+    box-sizing: border-box;
+  }
+  
+  .pass-input-div{
+    position: relative;
+  }
+  
+  .pass-input-div svg{
+    font-size: 20px;
+    position: absolute;
+    right: 10px;
+    bottom: 35px;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  form button[type='submit'] {
+    width: 100%;
+    padding: 16px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 30px;
+    font-weight: 600;
+  }
+  
+  
+  .login-center-options{
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .remember-div{
+    display:flex;
+    align-items: center;
+    column-gap: 5px;
+  }
+  
+  .remember-div label{
+    font-size: 13px;
+    font-weight: 500;
+    cursor: pointer;
+    margin-top: 2px;
+  }
+  
+  .forgot-pass-link{
+    text-decoration: none;
+    font-size: 13px;
+  }
+  
+  .forgot-pass-link:hover{
+    text-decoration: underline;
+  }
+  
+  .login-center-buttons{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+  }
+  
+  
+  .login-center-buttons button:nth-child(1){
+    background: #3A244A;
+    color: white;
+    border: 3px solid #3A244A;
+    transition: background 1s linear 0ms;
+    transition: color 500ms linear 0ms;
+  }
+  
+  .login-center-buttons button:nth-child(1):hover{
+    color: #333;
+    background-color: white;
+  }
+  
+  .login-center-buttons button:nth-child(2){
+    background: #F0F0F0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+    transition: background 500ms linear 0ms;
+  }
+
+  
+  .login-center-buttons button:nth-child(2) img{
+    width: 30px;
+  }
+  
+  .login-center-buttons button:nth-child(2):hover{
+    background: #c4c4c4c2;
+  }
+  
+  .login-bottom-p{
+    text-align: center;
+    font-size: 15px;
+    padding-bottom: 40px;
+  }
+  
+  .login-bottom-p a{
+    text-decoration: none;
+    font-weight: 600;
+  }
+  
+  .login-bottom-p a:hover{
+    text-decoration: underline;
+  }
+  .container {
+  display: flex;
+}
+#img{
+  width: 600px;
+ margin-left: 30px;
+}
+.card-body {
+  border: 2px;
+}
+/* styles.css */
+.form {
+  border: 1px solid #ccc;
+  padding: 20px;
+  text-decoration: none;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+
+
+.btn {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-border {
+  border: 1px solid #ccc;
+  padding: 20px; /* Optional: Add padding for better spacing */
+  border-radius: 5px; /* Optional: Add border radius for rounded corners */
+  width: 100%;
+ 
+}
+/* App.css */
+
+/* App.css */
+
+/* Increase font size for form inputs */
+.form-control {
+  font-size: 1.2rem; /* Adjust the font size as needed */
+  width:90%;
+  
+  
+}
+
+/* Increase padding for form inputs */
+.form-group input,
+.form-group select {
+  padding: 0.5rem ; /* Adjust padding as needed */
+  width: 90%;
+  border: none; /* Remove default border */
+  border-bottom: 2px solid #c4c1c0; 
+  outline: none;
+}
+
+/* Increase margin for form buttons */
+.btn {
+  margin-top: 1rem; /* Adjust margin as needed */
+  width: 100%;
+  background-color: #3A244A;
+  color: white;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+/* Increase margin for form toggle buttons */
+.btn-link {
+  margin-top: 0.5rem; /* Adjust margin as needed */
+  width: 100%;
+}
+
+/* Increase overall form size */
+.form-border {
+  padding: 2rem; /* Adjust padding as needed */
+}
