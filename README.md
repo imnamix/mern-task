@@ -1,10 +1,7 @@
 # MERN Login And Register With JSON Web Token - Authentication System
 
-![login register mern 1](https://github.com/Kuzma02/MERN-Login-And-Register-With-JSON-Web-Token/assets/138793624/057541be-e8ab-4489-996d-117290a85c5a)
+![login register mern 1](https://github.com/Kuzma02/MERN-Login-And-Register-With-JSON-Web-Token/client/assets/emailotp.PNG)
 
-![login register mern 2](https://github.com/Kuzma02/MERN-Login-And-Register-With-JSON-Web-Token/assets/138793624/364c6008-e211-4796-a745-5829f158e441)
-
-![login register mern 3](https://github.com/Kuzma02/MERN-Login-And-Register-With-JSON-Web-Token/assets/138793624/403f9988-3970-4b38-9de5-4469ff163164)
 
 # A Deep Dive into MERN App with Authentication
 Building upon the foundational principles of MongoDB, Express, React, and Node.js, my project offers a detailed implementation of MERN login register functionality. 
@@ -45,51 +42,4 @@ Backend:
 - Express: Web application framework for Node.js.
 - MongoDB: Database to store user credentials and session data.
 
-# Installation
-1. Clone the repository:
-
 ```
-git clone https://github.com/Kuzma02/MERN-Login-And-Register-With-JSON-Web-Token.git
-```
-
-2. Install dependencies:
-Navigate to the project directory:
-```
-cd folder-name
-```
-
-3. Install backend dependencies:
-```
-npm install
-```
-
-4. Install frontend dependencies:
-
-```
-cd client
-npm install
-```
-
-5. Configure MongoDB and JWT:
-Visit MongoDB website, create account, database and take connection string.
-After that generate 256 bits random key and add it to .env file.
-Create the .env file in the root directory with the following contents:
-```
-MONGO_URI=your_mongodb_uri
-JWT_SECRET=your_jwt_secret
-```
-
-6. Run the application:
-Start the backend server:
-```
-node app.js
-```
-
-7. In a new terminal, start the frontend:
-```
-cd client
-npm run dev
-```
-
-# Usage
-After starting the application, visit http://localhost:5173 in your browser. Users can now register for a new account or log in using existing credentials.
