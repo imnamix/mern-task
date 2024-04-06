@@ -1,6 +1,6 @@
 # MERN Login And Register With JSON Web Token - Authentication System
 
-![login register mern 1](https://github.com/Kuzma02/MERN-Login-And-Register-With-JSON-Web-Token/client/assets/emailotp.PNG)
+![login register mern 1](https://github.com/Kuzma02/MERN-Login-And-Register-With-JSON-Web-Token/client/src/assets/emailotp.PNG)
 
 
 # A Deep Dive into MERN App with Authentication
